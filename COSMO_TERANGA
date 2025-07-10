@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COSMO TERANGA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(145deg, #0a0a23, #1b1b3a);
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #0ff;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #0ff;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 1px solid #0ff;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      background: #0ff;
+      color: #000;
+    }
+    section {
+      padding: 3rem;
+      text-align: center;
+    }
+    .intro {
+      font-size: 1.4rem;
+      max-width: 800px;
+      margin: auto;
+      line-height: 2rem;
+    }
+    .galaxy {
+      background: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80') no-repeat center/cover;
+      padding: 5rem 0;
+      color: #fff;
+    }
+    footer {
+      background: #0a0a23;
+      text-align: center;
+      padding: 2rem;
+      border-top: 2px solid #0ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>COSMO TERANGA</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#vision">Vision</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <div class="intro">
+      <p>🌍✨ Bienvenue dans l’univers COSMO TERANGA — où la culture sénégalaise fusionne avec le numérique, l’art et les étoiles. Ici, chaque pixel raconte une histoire, chaque vibration techno est une danse entre le passé et le futur.</p>
+    </div>
+  </section>
+
+  <section id="vision" class="galaxy">
+    <h2>NOTRE VISION</h2>
+    <p>💫 Créer des ponts entre la tradition et l’innovation. COSMO TERANGA, c’est une vision futuriste enracinée dans les valeurs d’hospitalité, de créativité et d’exploration numérique.</p>
+  </section>
+
+  <section id="projets">
+    <h2>PROJETS PHARES</h2>
+    <ul style="list-style:none; padding:0; max-width: 600px; margin:auto;">
+      <li>🚀 “AfroCosmic Beats” – Mix visuel & sonore afro-futuriste</li>
+      <li>🎮 “Senegal City 3000” – Concept de jeu vidéo immersif sur Dakar futuriste</li>
+      <li>🧠 “CosmoBot” – IA artistique inspirée des symboles traditionnels africains</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>ENTRER EN CONTACT</h2>
+    <p>📧 Écris-nous à <a href="mailto:contact@cosmoteranga.com" style="color:#0ff;">contact@cosmoteranga.com</a> ou rejoins-nous sur nos réseaux.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 COSMO TERANGA – Crafted with vision & vibes 🛸</p>
+  </footer>
+</body>
+</html>
